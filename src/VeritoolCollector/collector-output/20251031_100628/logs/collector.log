@@ -1,0 +1,12 @@
+[2025-10-31 10:06:28] WARN  Configuration file '/Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/bin/Debug/net9.0/veritool.config.json' not found. Using built-in defaults.
+[2025-10-31 10:06:28] DEBUG Destination not provided. Using default path: /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100628
+[2025-10-31 10:06:28] INFO  Destination folder: /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100628
+[2025-10-31 10:06:28] WARN  System information collection requires Windows APIs. Current platform: Darwin 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:51 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8112. Skipping detailed WMI query.
+[2025-10-31 10:06:28] INFO  System information saved to /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100628/system_info.txt
+[2025-10-31 10:06:28] WARN  Source not found: C:\\TR7600\\TriMotion.cfg
+[2025-10-31 10:06:28] WARN  Source not found: C:\\TRI_AXI
+[2025-10-31 10:06:28] WARN  Source not found: C:\\TR7600\\Log\\Calibration
+[2025-10-31 10:06:28] WARN  Source not found: C:\\TR7600\\Log\\GrayLevel
+[2025-10-31 10:06:28] WARN  Registry export requires Windows and reg.exe. Skipping on current platform.
+[2025-10-31 10:06:28] INFO  CSV snapshot written to /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100628/checklist_snapshot.csv
+[2025-10-31 10:06:28] INFO  Collection completed successfully.

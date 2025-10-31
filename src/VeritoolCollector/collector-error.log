@@ -1,0 +1,9 @@
+[2025-10-31 10:05:20] WARN  Configuration file '/Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/bin/Debug/net9.0/veritool.config.json' not found. Using built-in defaults.
+[2025-10-31 10:05:20] DEBUG Destination not provided. Using default path: /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100520
+[2025-10-31 10:05:20] INFO  Destination folder: /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100520
+[2025-10-31 10:05:20] INFO  Gathering system information...
+[2025-10-31 10:05:20] ERROR Unexpected error: System.Management currently is only supported for Windows desktop applications.
+[2025-10-31 10:05:20] DEBUG System.PlatformNotSupportedException: System.Management currently is only supported for Windows desktop applications.
+   at System.Management.ManagementObjectSearcher..ctor(String queryString)
+   at VeritoolCollector.Collectors.SystemInfoCollector.Collect(Logger logger) in /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/Collectors/SystemInfoCollector.cs:line 16
+   at VeritoolCollector.Program.Main(String[] args) in /Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/Program.cs:line 39

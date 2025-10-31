@@ -1,0 +1,23 @@
+﻿Key,Value
+CalibrationNotes,Source not found: C:\\TR7600\\Log\\Calibration
+CalibrationStatus,Not Found
+Date,2025/10/31
+GrayLevelNotes,Source not found: C:\\TR7600\\Log\\GrayLevel
+GrayLevelStatus,Not Found
+LibraryNotes,Source not found: C:\\TRI_AXI
+LibraryStatus,Not Found
+RAM,
+RegistryNotes,備份後連著Check List一起打包寄出
+SoftwareLimitNotes,Source not found: C:\\TR7600\\TriMotion.cfg
+SoftwareLimitStatus,Not Found
+SystemInfoPath,/Users/maxymhuang/tri/veritool-meta/src/VeritoolCollector/collector-output/20251031_100628/system_info.txt
+TriRegistryNotes,Registry export requires Windows and reg.exe. Skipping on current platform.
+TriRegistryStatus,Not Found
+WindowsOS,Darwin 24.6.0 Darwin Kernel Version 24.6.0: Mon Jul 14 11:30:51 PDT 2025; root:xnu-11417.140.69~1/RELEASE_ARM64_T8112
+
+ArtifactKey,Source,Destination,Status,Message
+SoftwareLimit,C:\\TR7600\\TriMotion.cfg,,Missing,Source not found: C:\\TR7600\\TriMotion.cfg
+Library,C:\\TRI_AXI,,Missing,Source not found: C:\\TRI_AXI
+Calibration,C:\\TR7600\\Log\\Calibration,,Missing,Source not found: C:\\TR7600\\Log\\Calibration
+GrayLevel,C:\\TR7600\\Log\\GrayLevel,,Missing,Source not found: C:\\TR7600\\Log\\GrayLevel
+TriRegistry,HKEY_LOCAL_MACHINE\\SOFTWARE\\TRI\\TR7600,,Missing,Registry export requires Windows and reg.exe. Skipping on current platform.

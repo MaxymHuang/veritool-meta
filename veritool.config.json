@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "fileCopies": [
+    {
+      "key": "SoftwareLimit",
+      "source": "C:/TR7600/TriMotion.cfg",
+      "destinationName": "TriMotion.cfg",
+      "checklistPathKey": "SoftwareLimitPath",
+      "checklistStatusKey": "SoftwareLimitStatus",
+      "checklistNotesKey": "SoftwareLimitNotes",
+      "notes": "備份後連著Check List一起打包寄出"
+    }
+  ],
+  "directoryCopies": [
+    {
+      "key": "Library",
+      "source": "C:/TRI_AXI",
+      "destinationName": "TRI_AXI",
+      "checklistPathKey": "LibraryPath",
+      "checklistStatusKey": "LibraryStatus",
+      "checklistNotesKey": "LibraryNotes",
+      "notes": "備份後連著Check List一起打包寄出"
+    },
+    {
+      "key": "Calibration",
+      "source": "C:/TR7600/Log/Calibration",
+      "destinationName": "Calibration",
+      "checklistPathKey": "CalibrationPath",
+      "checklistStatusKey": "CalibrationStatus",
+      "checklistNotesKey": "CalibrationNotes",
+      "notes": "備份後連著Check List一起打包寄出"
+    },
+    {
+      "key": "GrayLevel",
+      "source": "C:/TR7600/Log/GrayLevel",
+      "destinationName": "GrayLevel",
+      "checklistPathKey": "GrayLevelPath",
+      "checklistStatusKey": "GrayLevelStatus",
+      "checklistNotesKey": "GrayLevelNotes",
+      "notes": "備份後連著Check List一起打包寄出"
+    }
+  ],
+  "registryExports": [
+    {
+      "key": "TriRegistry",
+      "registryPath": "HKEY_LOCAL_MACHINE\\SOFTWARE\\TRI\\TR7600",
+      "exportFileName": "TR7600.reg",
+      "checklistPathKey": "RegistryPath",
+      "checklistStatusKey": "RegistryStatus",
+      "checklistNotesKey": "RegistryNotes",
+      "notes": "備份後連著Check List一起打包寄出"
+    }
+  ],
+  "checklistBindings": {
+    "FAE Check List": {
+      "Date": "C3",
+      "FAE": "C4",
+      "Customer": "C5",
+      "MachineModel": "C6",
+      "SerialNumber": "C7",
+      "TubeSerial": "C8",
+      "CameraSerial": "C9",
+      "ResolutionSpec": "C10",
+      "Height": "C11",
+      "WindowsOS": "C13",
+      "RAM": "C14",
+      "GraphicsCard": "C15",
+      "AxiVersion": "C16",
+      "PlcVersion": "C17",
+      "SoftwareLimitPath": "C19",
+      "SoftwareLimitStatus": "D19",
+      "SoftwareLimitNotes": "F19",
+      "LibraryPath": "C20",
+      "LibraryStatus": "D20",
+      "LibraryNotes": "F20",
+      "RegistryPath": "C21",
+      "RegistryStatus": "D21",
+      "RegistryNotes": "F21",
+      "CalibrationPath": "C22",
+      "CalibrationStatus": "D22",
+      "CalibrationNotes": "F22",
+      "GrayLevelPath": "C23",
+      "GrayLevelStatus": "D23",
+      "GrayLevelNotes": "F23"
+    }
+  },
+  "defaultMetadata": {
+    "SoftwareLimitNotes": "備份後連著Check List一起打包寄出",
+    "LibraryNotes": "備份後連著Check List一起打包寄出",
+    "RegistryNotes": "備份後連著Check List一起打包寄出",
+    "CalibrationNotes": "備份後連著Check List一起打包寄出",
+    "GrayLevelNotes": "備份後連著Check List一起打包寄出"
+  }
+}
+
