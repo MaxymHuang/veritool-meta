@@ -1,6 +1,4 @@
 using System.Management;
-using System.Runtime.InteropServices;
-using System.Runtime.Versioning;
 using VeritoolCollector.Models;
 
 namespace VeritoolCollector.Collectors;
@@ -8,19 +6,6 @@ namespace VeritoolCollector.Collectors;
 internal static class SystemInfoCollector
 {
     public static SystemInfo Collect(Logger logger)
-    {
-        if (!OperatingSystem.IsWindows())
-        {
-            var description = RuntimeInformation.OSDescription;
-            logger.Warn($"System information collection requires Windows APIs. Current platform: {description}. Skipping detailed WMI query.");
-            return new SystemInfo(description, string.Empty, null, Array.Empty<GraphicsAdapterInfo>());
-        }
-
-        return CollectWindows(logger);
-    }
-
-    [SupportedOSPlatform("windows")]
-    private static SystemInfo CollectWindows(Logger logger)
     {
         logger.Info("Gathering system information...");
 

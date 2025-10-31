@@ -1,6 +1,6 @@
 ## Veritool Collector
 
-Self-contained .NET 9 utility that replaces `veritool.bat` with a configurable data collection workflow for TRI field engineers.
+Self-contained .NET utility that replaces `veritool.bat` with a configurable data collection workflow for TRI field engineers.
 
 ### Features
 - Captures OS, RAM, and GPU details into `system_info.txt`.
@@ -13,7 +13,7 @@ Self-contained .NET 9 utility that replaces `veritool.bat` with a configurable d
 Edit `veritool.config.json` to point at site-specific file paths, registry keys, and checklist cell bindings. The shipped defaults mirror the legacy batch script and populate cells on the `FAE Check List` sheet (`C3`–`F24`).
 
 ### Build & Publish
-1. Install the .NET 9 SDK on a Windows machine.
+1. Install the .NET 8 SDK on a Windows machine.
 2. Restore dependencies:
    ```
    dotnet restore src/VeritoolCollector/VeritoolCollector.csproj
@@ -27,7 +27,7 @@ Edit `veritool.config.json` to point at site-specific file paths, registry keys,
      -p:PublishSingleFile=true \
      -p:PublishTrimmed=true
    ```
-   The resulting `VeritoolCollector.exe` in `bin/Release/net9.0/win-x64/publish/` runs without a pre-installed runtime.
+   The resulting `VeritoolCollector.exe` in `bin/Release/net8.0/win-x64/publish/` runs without a pre-installed runtime.
 
 ### Run
 ```

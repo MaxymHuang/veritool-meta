@@ -89,13 +89,6 @@ internal static class ArtifactCollector
 
     private static CollectionOutcome ExportRegistry(RegistryExportTask task, RunContext context)
     {
-        if (!OperatingSystem.IsWindows())
-        {
-            var message = "Registry export requires Windows and reg.exe. Skipping on current platform.";
-            context.Logger.Warn(message);
-            return new CollectionOutcome(task.Key, task.RegistryPath, string.Empty, CollectionStatus.Missing, message);
-        }
-
         var destination = Path.Combine(context.ArtifactsDirectory, task.ExportFileName);
         try
         {
